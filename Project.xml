@@ -53,7 +53,7 @@
 	<define name="PSYCH"/>
 	<define name="FUTURE_POLYMOD" if="MODS_ALLOWED" />
 	<define name="ACHIEVEMENTS_ALLOWED" />
-	<define name="VIDEOS_ALLOWED" if="web || windows || if="linux"/>
+	<define name="VIDEOS_ALLOWED" if="web || windows || linux"/>
 	<define name="JOALOR64_WATERMARKS"/>
 	<define name="PSYCH_WATERMARKS" unless="JOALOR64_WATERMARKS"/>
 	<define name="CRASH_HANDLER" if="desktop release" />
